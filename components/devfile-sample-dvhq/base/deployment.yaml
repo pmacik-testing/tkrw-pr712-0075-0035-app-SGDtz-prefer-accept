@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dvhq
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0035-tenant/tkrw-pr712-0075-0035-app/devfile-sample-dvhq@sha256:bbc5432b1b615283481632074733e13acc1a419a2042d6d9f09fd7124b17e39f
         name: my-nodejs
         ports:
         - containerPort: 3001
